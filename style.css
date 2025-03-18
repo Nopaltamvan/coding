@@ -5,10 +5,18 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(assets/background-3.webp);
+    background-size: cover;
 }
 
 main{
     text-align: center;
+    width: 90%;
+    max-width: 400px
+}
+
+h1, p{
+    color: whitesmoke;
 }
 
 
@@ -28,6 +36,7 @@ main{
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 
@@ -54,4 +63,10 @@ main{
 .sosmed:hover{
     background-color: black;
     color: whitesmoke;
+}
+
+.sosmed-links{
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
 }
